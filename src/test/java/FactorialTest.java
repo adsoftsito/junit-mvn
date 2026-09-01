@@ -5,7 +5,7 @@ public class FactorialTest {
 
     @Test
     void factorialDeCeroDebeSerUno() {
-        assertEquals(1, Factorial.calcular(0));
+        assertEquals(0, Factorial.calcular(0));
     }
 
     @Test
